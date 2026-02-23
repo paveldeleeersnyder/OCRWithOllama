@@ -58,4 +58,4 @@ def handleDocument():
 
     return str(res)
 
-app.run()
+app.run(host="0.0.0.0")
